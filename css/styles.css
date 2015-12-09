@@ -1,3 +1,8 @@
+/*FONTS*/
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+/*FONTS*/
+
+
 /*NAV*/
 .navbar-default {
 	background-color:transparent;
@@ -47,6 +52,120 @@
 	height: 600px;
 	background-size:cover;
 	background-position:center;
+}
 
+.slide-one-logo {
+	max-height: 300px;
+}
+
+.carousel-caption {
+    /*position: absolute;*/
+    right: 15%;
+    bottom: 110px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    /*padding-bottom: 110px;*/
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
 /*END OF CAROUSEL*/
+
+/*BUTTONS*/
+.btn-primary {
+	color:#fff;
+	background-color:#F8512F;
+	border-color:transparent;
+}
+
+.btn-primary a:hover {
+	background-color: #D34326;
+	border-color: transparent;
+}
+/*END OF BUTTONS*/
+
+/*OUR STORY*/
+#our-story {
+	min-height:600px;
+}
+#our-story .row {
+	margin-top: 30px;
+}
+#our-story h1 {
+	font-size:85px;
+	font-family:Lobster;
+	color:#D34326;
+	margin-top:0;
+}
+#our-story h2 {
+	font-size:28px;
+	margin-top:-15px;
+}
+#our-story p {
+	font-weight:300;
+	font-size:17px;
+}
+h3.story-year {
+	font-weight: 700px;
+	font-size:200px;
+	color: rgba(149, 147, 147, .2);
+	position:absolute;
+	z-index:-1;
+}
+
+/*END OF OUR STORY*/
+
+/*REVIEW*/
+#review {
+	min-height:600px;
+	background-image: url(../img/food_review.jpg);
+	background-position: center;
+	background-position:bottom;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+#review h2 {
+	font-size:85px;
+	font-family:Lobster;
+	color:#D34326;
+	text-shadow:1px 1px 5px #0a0a0a;
+}
+
+#review p {
+	font-size:30px;
+	font-weight:300;
+	/*width:70%;*/
+	/*text-align:center;*/
+	/*margin:0 auto;*/
+	text-shadow:1px 1px 5px #0a0a0a;
+	color:#fff;
+}
+
+#review .center {
+	float:none;
+	background-color: rgba( 20, 20, 20, .6);
+	margin:0px auto;
+	margin-top:200px;
+	padding:20px;
+	border-radius: 5px
+}
+
+/*END OF REVIEW*/
+
+/*MENU*/
+#menu {
+	min-height:600px;
+	background-image:url(../img/black_linen.png);
+	background-size: cover;
+	padding-bottom: 70px;
+	padding-top: 40px;
+}
+.food {
+	background-color: #fff;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+/*END OF MENU*/
